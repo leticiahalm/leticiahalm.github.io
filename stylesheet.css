@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    line-height: 1.6;
+    background-color: hsla(38, 14%, 86%, 0.86);
+    color: 	hsl(0, 0%, 20%);  
+}
+
+/* Header styling */
+header {
+    /* background-color: hsl(225, 14%, 20%); */
+    background: url("/pics/flower2.png");
+    background-size: cover;
+    background-position: center;
+    color:  hsl(0, 0%, 100%);
+    padding: 4em 0;
+    text-align: center;
+    position: relative; 
+    margin-top: 0; /* Ensure no margin at the top */
+
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: 1; /* Ensure overlay is above the image but below the text */
+}
+
+header .header-content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the overlay */
+}
+
+header h1 {
+    padding: 3em 0;
+    margin-bottom: 0.5em;
+    position: relative;
+    font-size: 8.5em;
+    font-family: 'Snell Roundhand', sans-serif;
+    
+
+}
+
+/* Nav styling */
+ul {
+    position: fixed; /* Make the nav bar fixed at the top */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0;
+    overflow: hidden;
+   /* border: 1px solid hsl(0, 0%, 7%); */
+   background-color:  rgba(0, 0, 0, 0.9); 
+}
+
+li {
+    float: right;
+    margin-right: 1.5em; /* Move the nav bar to the left */
+    margin-top: 0.5em;
+}
+  
+li a {
+    display: block;
+    color: hsla(38, 14%, 86%, 0.86);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a {
+    font-size: 23px;
+}
+  
+ul li a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+    color: rgb(0, 0, 0); /* Change color on hover */
+    background-color:  hsla(38, 4%, 59%, 0.86); /* Add a slight background color on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    color: hsl(227, 40%, 23%);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+section h3{
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: hsl(227, 40%, 23%);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+hr{
+    color: hsl(225, 14%, 20%);
+}
+
+/* intro & home */
+#intro{
+    font-size: 2em;
+    text-align: justify;
+    color: hsl(225, 14%, 20%);
+    font-family: Palatino, URW Palladio L, serif;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#home{
+    height: 50vh;
+    margin-top: 13em;
+}
+
+#textItaly{
+    float: right;
+    margin-top: 6em;
+    padding-right: 20em;
+    font-size: 1.2em;
+}
+
+#italy1{
+    height: 23.5em;
+    float: right;   
+    padding-right: 1em;
+    margin-top: -10em;
+    filter: brightness(0.5); /* Make the image a little darker */
+}
+
+#italy2{
+    height: 25em;
+    float: left;
+    margin-top: -15em;
+    padding-left: 1em;
+}
+
+/* about */
+#about{
+    font-size: 1.5em;
+    height: 110vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* projects */
+#projects{
+    font-size: 1.5em;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* contacts */
+#contact{
+    font-size: 1.5em;
+    height: 65vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: hsl(0, 0%, 0%);
+}
+
+#phone, #mail, #github{
+    height: 1.5em;
+    float: left;  
+    padding-right: 1em;
+    padding-left: 1.5em;
+}
+
+/* Footer styling */
+footer {
+    background-color: hsl(0, 0%, 0%);
+    color:   hsla(38, 14%, 86%, 0.86);
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
