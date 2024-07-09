@@ -224,7 +224,7 @@ footer {
 
     ul li a {
         padding: 8px 10px; /* Reduce padding for mobile */
-        font-size: 10px; /* Reduce font size for mobile */
+        font-size: 14px; /* Reduce font size for mobile */
     }
 
     .contact-content {
