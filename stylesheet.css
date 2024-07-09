@@ -72,7 +72,7 @@ li {
 }
   
 li a {
-    display: block;
+    display: inline;
     color: hsla(38, 14%, 86%, 0.86);
     text-align: center;
     padding: 14px 14px;
@@ -199,4 +199,78 @@ footer {
     bottom: 0;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    ul {
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-around; /* Ensure items are spaced evenly */
+        list-style-type: none;
+        margin-top: 1em;
+
+    }
+
+    li {
+        float: none;
+        margin: 1em 0;
+        display: inline;
+    }
+
+    ul li a {
+        padding: 8px 10px; /* Reduce padding for mobile */
+        font-size: 10px; /* Reduce font size for mobile */
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #italy2 {
+        margin: 0.5em 0;
+    }
+
+    section h2, section h3 {
+        font-size: 2em;
+    }
+
+    #intro {
+        font-size: 1em;
+        height: 40vh;
+    }
+
+    #home {
+        font-size: 1em;
+        margin-bottom: 0.5em; /* Reduce space below Home section */
+    }
+
+    #about {
+        font-size: 1em;
+        height: 170vh;
+        margin-top: 0.5em; /* Reduce space above About section */
+    }
+
+    #projects {
+        font-size: 1em;
+        height: 50vh;
+    }
+
+    #contact {
+        font-size: 0.73em;
+        height: 20vh;
+    }
+
+    #italy1, #italy2 {
+        height: 8em;
+    }
+
+    footer {
+        font-size: 0.7em; /* Further reduce font size for mobile */
+    }
 }
