@@ -274,3 +274,79 @@ footer {
         font-size: 0.7em; /* Further reduce font size for mobile */
     }
 }
+
+/* Media Queries for iPads */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 4em;
+    }
+
+    ul {
+        padding: 0.3em 0;
+        justify-content: space-around; /* Ensure items are spaced evenly */
+    }
+
+    li {
+        display: inline; /* Ensure list items are inline */
+        margin: 0.3em 0;
+    }
+
+    ul li a {
+        padding: 10px 15px; /* Adjust padding for iPads */
+        font-size: 16px; /* Adjust font size for iPads */
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #italy2 {
+        margin: 0.5em 0;
+    }
+
+    section h2, section h3 {
+        font-size: 3em;
+    }
+
+    #intro {
+        font-size: 1.5em;
+        height: 30vh;
+    }
+
+    #home {
+        font-size: 1em;
+        margin-bottom: 0.7em; /* Adjust space below Home section */
+    }
+
+    #about {
+        font-size: 1.3em;
+        height: 150vh;
+        margin-top: 3em; /* Adjust space above About section */
+    }
+
+    #projects {
+        font-size: 1.3em;
+        height: 90vh;
+    }
+
+    #contact {
+        font-size: 1em;
+        height: 25vh;
+    }
+
+    #italy1, #italy2 {
+        height: 15em;
+    }
+
+    #textItaly{
+        float: right;
+        margin-top: 3em;
+        padding-right: 1em;
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 0.75em; /* Adjust font size for iPads */
+    }
+}
