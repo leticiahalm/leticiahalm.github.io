@@ -276,7 +276,7 @@ footer {
 }
 
 /* Media Queries for iPads */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1624px) {
     header h1 {
         font-size: 4em;
     }
